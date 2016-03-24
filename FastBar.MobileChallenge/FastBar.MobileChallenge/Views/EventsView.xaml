@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mvvm:BaseView  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:common="clr-namespace:FastBar.MobileChallenge.Common;assembly=FastBar.MobileChallenge"
+             xmlns:mvvm="clr-namespace:XLabs.Forms.Mvvm;assembly=XLabs.Forms"
+             x:Class="FastBar.MobileChallenge.Views.EventsView"
+             Title="Events">
+  <ContentPage.Resources>
+    <ResourceDictionary>
+      <common:EmptyStringBoolConverter x:Key="EmptyStringBoolConverter" />
+    </ResourceDictionary>
+  </ContentPage.Resources>
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+    <Label Text="{Binding ErrorMessage}" TextColor="Red" HorizontalTextAlignment="Center"
+                  IsVisible="{Binding ErrorMessage, Converter={StaticResource EmptyStringBoolConverter}}" />
+    <ActivityIndicator Grid.Row="0" IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"/>
+    <ListView Grid.Row="1" ItemsSource="{Binding Events}">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <TextCell Text="{Binding Name}" />
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+</mvvm:BaseView>

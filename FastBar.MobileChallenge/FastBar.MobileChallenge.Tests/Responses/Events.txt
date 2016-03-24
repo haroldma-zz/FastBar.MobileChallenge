@@ -1,0 +1,47 @@
+﻿[
+  {
+    "EventId": 12,
+    "EventKey": "demoevent001",
+    "BarOperatorUserId": 2,
+    "Name": "Bonza Bash New Year's Eve 2015",
+    "DateTimeStartUtc": "2015-01-01T04:00:00Z",
+    "DateTimeEndUtc": "2015-01-01T10:00:00Z",
+    "CloudinaryPublicImageId": "StockEventImages/nightlife-1"
+  },
+  {
+    "EventId": 13,
+    "EventKey": "demoevent002",
+    "BarOperatorUserId": 2,
+    "Name": "Tomato Battle Australia",
+    "DateTimeStartUtc": "2015-02-28T19:00:00Z",
+    "DateTimeEndUtc": "2015-01-29T01:00:00Z",
+    "CloudinaryPublicImageId": "StockEventImages/nightlife-2"
+  },
+  {
+    "EventId": 14,
+    "EventKey": "demoevent003",
+    "BarOperatorUserId": 2,
+    "Name": "Taste of Edmonds",
+    "DateTimeStartUtc": "2017-08-14T18:00:00Z",
+    "DateTimeEndUtc": "2017-08-17T00:00:00Z",
+    "CloudinaryPublicImageId": "StockEventImages/nightlife-3"
+  },
+  {
+    "EventId": 15,
+    "EventKey": "demoevent004",
+    "BarOperatorUserId": 2,
+    "Name": "Slide The City",
+    "DateTimeStartUtc": "2017-08-22T18:00:00Z",
+    "DateTimeEndUtc": "2017-08-23T00:00:00Z",
+    "CloudinaryPublicImageId": "StockEventImages/nightlife-4"
+  },
+  {
+    "EventId": 16,
+    "EventKey": "demoevent005",
+    "BarOperatorUserId": 2,
+    "Name": "Seahawks Tailgate",
+    "DateTimeStartUtc": "2017-12-27T17:00:00Z",
+    "DateTimeEndUtc": "2017-12-28T22:00:00Z",
+    "CloudinaryPublicImageId": "StockEventImages/nightlife-5"
+  }
+]

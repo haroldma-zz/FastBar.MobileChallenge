@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<mvvm:BaseView  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:common="clr-namespace:FastBar.MobileChallenge.Common;assembly=FastBar.MobileChallenge"
+             xmlns:mvvm="clr-namespace:XLabs.Forms.Mvvm;assembly=XLabs.Forms"
+             x:Class="FastBar.MobileChallenge.Views.LoginView"
+             Title="Login">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <common:EmptyStringBoolConverter x:Key="EmptyStringBoolConverter" />
+            <common:BooleanNegationConverter x:Key="BooleanNegationConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid>
+        <StackLayout Padding="10, 100, 10, 10"
+                     IsVisible="{Binding IsBusy, Converter={StaticResource BooleanNegationConverter}}">
+            <Label Text="{Binding ErrorMessage}" TextColor="Red" HorizontalTextAlignment="Center"
+                   IsVisible="{Binding ErrorMessage, Converter={StaticResource EmptyStringBoolConverter}}" />
+            <Entry Text="{Binding Username, Mode=TwoWay}" Placeholder="Username" />
+            <Entry Text="{Binding Password, Mode=TwoWay}" IsPassword="True" Placeholder="Password" />
+            <Button Text="Login" Command="{Binding LoginCommand}" />
+        </StackLayout>
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}" />
+    </Grid>
+</mvvm:BaseView>

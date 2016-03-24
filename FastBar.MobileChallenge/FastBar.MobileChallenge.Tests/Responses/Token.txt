@@ -1,0 +1,8 @@
+﻿{
+  "access_token": "5wZjoKQDzxMmN5SJo6VG-GS1gdMidplgmxM17WxyulLWY0_Ivu70TKQ2a9LvmmCLqU4S-UcVmgNTu-oCMXilNDltuNIvTATZIeQZBQzElMOY9zEYAhtRTH2UD8doX-1rqDv5bVI3wBj9xsiPP7umQlamq6lGgoIn3GZIRQN7ZHXnzVDHxJvlUiq1fEkj1OpTT7hujiGbN68hom9TCycWKeT7ZjPQVkAq5taXB4RVg_Phrz0KA6_0uLSZBxE4qEMDu332L949fPRlR5LF0hSRlk3wn7IkL80Jtj07sLa-PayLiOPhe4NvtasXErdi8zk8dZD3lhgl7zO7kwaFBzmGy4TrsflyQjBYSWBVqS0IoivxsmLOERbaFI8xMncBBCeqCqa37YNCwkDHf8oqwzjy-NPI3BbEQmT6nR8vv9Fs_aPixZS-3ZEaKPTlKGjgQvchYBz9gxBS9BzAyHLLwSpljoYTPGO7Vq9Kv-rdnSU5_SFq7AtWe1IeGGzjYw7EZaexx4fbdX9kvMxh0vSM1EEKYglErPVQ4zLN9ptYt62gGswAtdN2S1Nt9Bmg1gaGGTI2",
+  "token_type": "bearer",
+  "expires_in": 7199,
+  "userName": "demo@getfastbar.com",
+  ".issued": "Wed, 23 Mar 2016 13:32:10 GMT",
+  ".expires": "Wed, 23 Mar 2016 15:32:10 GMT"
+}
